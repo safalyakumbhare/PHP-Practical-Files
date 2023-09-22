@@ -1,4 +1,4 @@
 <?php
 $name= readline("Enter Your Name :");
-echo "Hello! $name";
+echo "Hello ! $name";
 ?>
