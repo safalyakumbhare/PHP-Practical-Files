@@ -9,7 +9,7 @@
 $num1 = 20;
 $num2 = 20;
 $sum = $num1+$num2;
- echo "<B>Addition of $num1 + $num2 is = ",$sum;"</b>";
+ echo "<b>Addition of $num1 + $num2 is = ",$sum;"</b>";
 ?>
 
 </body>
