@@ -9,9 +9,8 @@
     for($i=1;$i<=$fact;$i++)
     {
         $num = $num * $i;  
-        echo "$num";
-        echo "<br>";
     }
+    echo "Factorial of $fact are :- $num";
     ?>
 </body>
 </html>
