@@ -11,7 +11,6 @@
         echo "$i";
         echo "<br>";
     }
-
     ?>
 </body>
 </html>
