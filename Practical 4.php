@@ -1,5 +1,4 @@
-
-<html >
+<html>
 <head>
     <title>Practical 4</title>
 </head>
