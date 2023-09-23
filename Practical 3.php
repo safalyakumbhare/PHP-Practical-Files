@@ -8,7 +8,7 @@
 <?php
 $num = 12;
 $square = $num*$num;
-echo "Square of $num is ",$square;
+echo "The Square of $num is ",$square;
 ?>
 </body>
 </html>
