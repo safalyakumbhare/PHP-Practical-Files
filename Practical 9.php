@@ -13,12 +13,6 @@
             echo $num [$i];
             echo "<BR>";
         }
-        // echo "<br>";
-        // $string = 'bac';
-
-        // $stringParts = str_split($string);
-        // sort($stringParts);
-        // echo implode($stringParts); // abc    
-        // ?>
+       ?>
     </body>
 </html>
