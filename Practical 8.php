@@ -8,6 +8,7 @@ $series=10;
 $num1=0;
 $num2=1;
 $sum = 0;
+
 for($i=0;$i<=$series;$i++)
 {
     echo $num1;
