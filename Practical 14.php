@@ -2,7 +2,7 @@
 
     session_start();
 
-    $_SESSION['username'] = "Safalya";
+    $_SESSION['name'] = "Safalya";
     $_SESSION['food'] = "Burger";
 
     echo "Session Created";
@@ -12,7 +12,7 @@
 <html>
     <body>
         <?php
-            echo "The ".$_SESSION['username']."'s Favourite food is ".$_SESSION['food'];
+            echo $_SESSION['name']."'s Favourite food is ".$_SESSION['food'];
         ?>
     </body>
 </html>
