@@ -4,7 +4,7 @@
     </head>
     <body>
     <?php
-$date  = date('Y-m-d');
+$date  = date('d-m-Y');
 $time = date('H:i:s');
 echo "Current Date is : $date";
 echo "<br>";
