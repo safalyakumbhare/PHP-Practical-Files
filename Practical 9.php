@@ -8,7 +8,7 @@
         sort($num);
         
         $length=count($num);
-        for($i=0;$i<=$length;$i++)
+        for($i=0;$i<$length;$i++)
         {
             echo $num [$i];
             echo "<BR>";
