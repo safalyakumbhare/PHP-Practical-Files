@@ -7,7 +7,9 @@
 <?php
 $string = "This is a string";
 $array = explode(" ", $string);
+echo "<pre>";
 print_r($array);
+echo "</pre>";
 ?>
 
 </body>
