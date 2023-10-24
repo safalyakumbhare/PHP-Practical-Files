@@ -2,11 +2,11 @@
 
     session_start();
 
-    $_SESSION['username'] = "Rohit";
-    $_SESSION['food'] = "Pav Bhaji";
+    $_SESSION['username'] = "Safalya";
+    $_SESSION['food'] = "Burger";
 
     echo "Session Created";
-    echo "<br>";
+    echo "<hr>";
 ?>
 
 <html>
