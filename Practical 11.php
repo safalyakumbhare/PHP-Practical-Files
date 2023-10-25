@@ -3,7 +3,7 @@
         <title>
             Practical 11
         </title>
-    </head>
+    </head> 
     <body>
         
         <?php
