@@ -10,7 +10,7 @@ $array = explode(" ", $string);
 echo "<pre>";
 print_r($array);
 echo "</pre>";
-?>
+?> 
 
 </body>
 </html>
