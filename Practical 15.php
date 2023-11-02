@@ -1,12 +1,14 @@
 <html>
-    <body>
-        <?php
 
-            $open = fopen("newfile.txt","x");
-            
-            echo fwrite($open,"Created and write");
-            
-            fclose($open);
-        ?>
-    </body>
+<body>
+    <?php
+
+    $open = fopen("newfile.txt", "w");
+
+    echo fwrite($open, "Created and write");
+
+    fclose($open);
+    ?>
+</body>
+
 </html>
