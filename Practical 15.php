@@ -6,7 +6,7 @@
             
             echo fwrite($open,"Created and write");
             
-        fclose($open);
+            fclose($open);
         ?>
     </body>
 </html>
