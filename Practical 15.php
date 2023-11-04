@@ -4,8 +4,8 @@
     <?php
 
     $open = fopen("newfile.txt", "w");
-
-    echo fwrite($open, "Created and write");
+    echo "File Created And Values Written :";
+    echo fwrite($open, "Created a File named newfile and written this statement");
 
     fclose($open);
     ?>
