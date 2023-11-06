@@ -2,8 +2,8 @@
 
     session_start();
 
-    $_SESSION['name'] = "Safalya";
-    $_SESSION['food'] = "Burger";
+    $_SESSION['name'] = "Dhanajay";
+    $_SESSION['food'] = "Samosa";
 
     echo "Session Created";
     echo "<hr>";
