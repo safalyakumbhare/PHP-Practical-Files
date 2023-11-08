@@ -1,6 +1,6 @@
 <?php
 $_COOKIE_name = "User";
-$_COOKIE_value = "Dhananjay";
+$_COOKIE_value = "Safalya";
 
 setcookie($_COOKIE_name, $_COOKIE_value, time() + 86400, "/");
 echo "Cookie Created";
