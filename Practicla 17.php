@@ -8,8 +8,8 @@ if($conn){
 else{
     echo "Error To Connect";
 }
-
-$sql = "INSERT INTO `emp01` (`id`,`Name`,`Post`,`salary`) VALUES (1,'Safalya','Front-End Developer',400000) ";
+echo "<br>";
+$sql = "INSERT INTO `emp01` (`id`,`Name`,`Post`,`salary`) VALUES (2,'Bhuvan','Back-End Developer',400000) ";
 
 if(mysqli_query($conn,$sql)){
     echo "Inserted Successfully";
