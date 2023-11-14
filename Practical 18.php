@@ -11,6 +11,7 @@ else{
 echo "<br>";
 
 $sql = "SELECT * FROM `emp01`";
+$num = mysqli_query($conn,$sql);
 
-
+echo "There are ",mysqli_num_rows($num)," Number of Rows in the Table ";
 ?>
