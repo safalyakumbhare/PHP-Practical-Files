@@ -9,7 +9,7 @@ else{
     echo "Error To Connect";
 }
 echo "<br>";
-$sql = "INSERT INTO `emp01` (`id`,`Name`,`Post`,`salary`) VALUES (2,'Bhuvan','Back-End Developer',400000) ";
+$sql = "INSERT INTO `emp01` (`id`,`Name`,`Post`,`salary`) VALUES (3,'Kartik','Python Developer',600000) ";
 
 if(mysqli_query($conn,$sql)){
     echo "Inserted Successfully";
